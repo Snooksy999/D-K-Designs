@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: roboto;
     background-color: black;
-    height: 100vh;
+    height: 300vh;
 }
 
 h1 {
@@ -27,6 +28,57 @@ h4 {
     text-shadow: 0 0 10px rgba(255, 255, 255, .15);
     z-index: 999;
 }
+h4 span {
+    color: rgb(204, 67, 67);
+}
+.menu {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.menu .btn a {
+    
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(204, 67, 67);
+    border-width: 1px;
+    border-color: rgb(204, 67, 67);
+    border-style: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.menu .btn {
+    margin-top: 15px;
+    margin-left: 0;
+    display: inline-block;
+}
+
+.menu .btn2 a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(204, 67, 67);
+    border-width: 1px;
+    border-color: rgb(204, 67, 67);
+    border-style: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.menu .btn2 {
+    margin-left: 10vh;
+    display: inline-block;
+    
+}
+
+
 
 
 
@@ -36,7 +88,7 @@ h4 {
     bottom: 0;
     right: 0;
     left: 0;
-    z-index: 0;
+    z-index: -1;
 }
 
 .arrow {
@@ -48,19 +100,19 @@ h4 {
 
 .arrow span {
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     border-bottom: 5px solid rgb(204, 67, 67);
     border-right: 5px solid rgb(204, 67, 67);
     text-shadow: 0 0 10px rgba(255, 255, 255, .15);
     transform: rotate(45deg);
     margin: -15px;
-    animation: scroll 2s infinite;
+    animation: scroll 2.5s infinite;
 }
 
 
 .arrow span:nth-child(2) {
-    animation-delay: -.3s;
+    animation-delay: -.2s;
 }
 
 .arrow span:nth-child(3) {
@@ -80,3 +132,43 @@ h4 {
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+
+.about-us {
+    color:white;
+    padding-top: 5%;
+}
+
+.about-us .about h3 {
+    margin-top: 5%;
+}
+.about-us .about p {
+    margin-top: 5%;
+    color:red;
+}
+.about {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.about-us .about .damir {
+    padding-top: 5%
+}
+.about-us .about .kristina {
+    padding-top: 5%;
+}
+.about-us .about .kristina p {
+    text-align: right;
+}
+.about-us .about .kristina h3 {
+    text-align: right;
+}
+.our-projects .project1 {
+    color: white;
+    text-align: left;
+}
+
+.our-projects .project2 {
+    color: white;
+    text-align: right;
+}
+
