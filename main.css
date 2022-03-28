@@ -5,6 +5,10 @@
     
 }
 
+.hero {
+    height: 100vh;
+}
+
 body {
     font-family: montserrat;
     background-color: black;
@@ -205,42 +209,19 @@ h4 {
     }
 }
 
-.about-us {
-    color:white;
-    padding-top: 5%;
+.what-we-offer {
+    height: 100vh;
 }
-
-.about-us .about h3 {
-    margin-top: 5%;
-}
-.about-us .about p {
-    margin-top: 5%;
-    color:red;
-}
-.about {
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
-.about-us .about .damir {
-    padding-top: 5%
-}
-.about-us .about .kristina {
-    padding-top: 5%;
-}
-.about-us .about .kristina p {
-    text-align: right;
-}
-.about-us .about .kristina h3 {
-    text-align: right;
-}
-.our-projects .project1 {
-    color: white;
-    text-align: left;
-}
-
-.our-projects .project2 {
-    color: white;
-    text-align: right;
+.what-we-offer .title h1 {
+    color: #E6E1D3;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 146px;
+    text-align: center;
 }
 
