@@ -10,28 +10,35 @@
 }
 
 body {
-<<<<<<< HEAD
     font-family: montserrat;
     background-color: #191919;
-=======
-    font-family: roboto;
-    background-color: black;
->>>>>>> parent of d2842ad (Added typewriter animation)
     height: 300vh;
 }
 
 .hero h1 {
     color: #D7CBB2;
     font-size: 72px;
-    text-transform: uppercase;
+    font-weight: 600;
     text-align: center;
     padding-top: 40vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, .35);
     z-index: 999;
 }  
+h1 span {
+    color:rgb(204, 67, 67);
+}
+
+h4 span {
+    color: rgb(204, 67, 67);
+}
+.wrapper {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 h4 {
-<<<<<<< HEAD
     color: #D7CBB2;
     font-size: 55px;
     font-weight: 600;
@@ -44,18 +51,41 @@ h4 {
     color: white;
     list-style: none;
     text-decoration: none;
-=======
-    color: white;
->>>>>>> parent of d2842ad (Added typewriter animation)
     font-size: 42px;
-    text-align: center;
-    text-shadow: 0 0 10px rgba(255, 255, 255, .15);
-    z-index: 999;
+    font-weight: 600;
+    margin-left: 15px;
+    line-height: 60px;
+    height: 60px;  
+    overflow: hidden; 
+    
+    
 }
-h4 span {
+
+.dynamic-txt li {
+    color: white;
+    list-style: none;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 650;
     color: rgb(204, 67, 67);
+    top: 0;
+    position: relative;
+    animation: slide 9s steps(3) infinite;
+   
 }
-<<<<<<< HEAD
+
+@keyframes slide {
+    100%{
+      top: -180px;
+    }
+  }
+
+
+
+.dynamic-txt li span{
+    position: relative;
+    
+}
 .dynamic-txt li span::after{
     content: "";
     position: absolute;
@@ -75,8 +105,6 @@ h4 span {
     }
 }
 
-=======
->>>>>>> parent of d2842ad (Added typewriter animation)
 .menu {
     width: 100%;
     display: inline-block;
