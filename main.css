@@ -253,7 +253,6 @@ h4 {
 .what-we-offer .container .package-1 {
     
     background-color: #D7CBB2;
-    background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p1/2099696-montagne-beau-paysage-fond-vecteur-design-illustration-gratuit-vectoriel.jpg);
     width: 20%;
     height: 500px;
     background-size: 250% 100%;
@@ -262,12 +261,22 @@ h4 {
     margin-top: 30px;
 }
 
+.what-we-offer .container .package-1 .image-frame {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 50%;
+    
+}
+
 .what-we-offer .container .package-2 {
     background-color: #D7CBB2;
     width: 20%;
     height: 530px;
     margin-left: 30px;
-    border-radius: 18px;
+    border-radius: 6px;
 }
 
 .what-we-offer .container .package-3 {
@@ -275,7 +284,7 @@ h4 {
     width: 20%;
     height: 530px;
     margin-left: 30px;
-    border-radius: 18px;
+    border-radius: 6px;
 }
 
 .what-we-offer .container .package-4 {
@@ -283,7 +292,7 @@ h4 {
     width: 20%;
     height: 500px;
     margin-left: 30px;
-    border-radius: 18px;
+    border-radius: 6px;
     margin-top: 30px;
 }
 
